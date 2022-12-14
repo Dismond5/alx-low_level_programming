@@ -10,7 +10,7 @@ int main(void)
 	int count;
 	unsigned long i, j, k;
 	unsigned long ia, ib, ja, jb, ka, kb, carry;
-	unsigned long amount;
+	unsigned amount;
 
 	count = 0;
 	i = 0;
