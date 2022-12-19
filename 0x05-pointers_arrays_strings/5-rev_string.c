@@ -18,7 +18,7 @@ void rev_string(char *s)
 		y++;
 	}
 	z = y - 1;
-	for (x = 0; x < y; x++)
+	for (x = 0; x < y / 2; x++)
 	{
 		zen = s[x];
 		s[x] = s[z];
