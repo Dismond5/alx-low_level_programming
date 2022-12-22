@@ -20,7 +20,7 @@ char *cap_string(char *x)
 		{
 			if (x[a] == Sep[b])
 				if (x[a + 1] >= 'a' && x[a + 1] <= 'z')
-					x[a + 1] -=32;
+					x[a + 1] -= 32;
 		}
 	}
 	return (x);

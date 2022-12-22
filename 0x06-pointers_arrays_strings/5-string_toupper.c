@@ -9,14 +9,16 @@
 
 char *string_toupper(char *x)
 {
-	int y;
+	int y = 0;
 
-	y = 0;
-	while (*(x + y))
+	while (x[y])
 	{
-		if (*(x + y) >= 'a' && *(x + y) <= 'z')
-			*(x + y) -= 'z' - 'A';
+		if (x[y] <= 97 && x[y] <= 122)
+		{
+			x[y] -= 32;
+		}
 		y++;
 	}
+
 	return (x);
 }
