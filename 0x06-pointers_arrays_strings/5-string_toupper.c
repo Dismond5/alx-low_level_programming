@@ -12,9 +12,9 @@ char *string_toupper(char *x)
 	int y;
 
 	y = 0;
-	while (*(x * y))
+	while (*(x + y))
 	{
-		if (*(s + y) <= 'a' && *(x + y <= 'z')
+		if (*(s + y) <= 'a' && *(x + y) <= 'z')
 		{
 			*(x + y) -= 'a' - 'A';
 		}
