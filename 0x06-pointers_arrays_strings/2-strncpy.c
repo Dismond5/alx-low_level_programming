@@ -5,7 +5,7 @@
  * @dest: input
  * @src: input
  * @n: input
- * return: 0
+ * Return: char.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
