@@ -29,7 +29,7 @@ char *_strdup(char *str)
 	{
 		cstr[b] = str[b];
 	}
-	cstr[a] = '\0'
+	cstr[a] = '\0';
 
 	return (cstr);
 }
