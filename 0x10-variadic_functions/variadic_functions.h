@@ -5,9 +5,10 @@
 #include <stdio.h>
 
 /**
- * main
- *
+ * main - main func
+ *@n: input
  * header file
+ * Return: 0
  */
 
 int sum_them_all(const unsigned int n, ...);
