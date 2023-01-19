@@ -25,10 +25,10 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - multiplies two numbers.
+ * op_mul - multiplies two numbers
  * @a: input
  * @b: input
- * return: input
+ * Return: a / b
  */
 
 int op_mul(int a, int b)

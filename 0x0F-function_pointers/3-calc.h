@@ -7,7 +7,7 @@
 /**
  * struct op - Struct op
  *
- * op: input
+ * @op: input
  * @f: input
  */
 
