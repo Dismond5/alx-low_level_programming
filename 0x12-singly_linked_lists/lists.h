@@ -9,7 +9,7 @@
 /**
  * struct list_s - singly linked list
  * @str: input
- * @len input
+ * @len: input
  * @next: input
  * Return: 0
  */
